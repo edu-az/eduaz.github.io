@@ -1,6 +1,20 @@
 body {
+    max-width: 900px;
     background-color: #fca6c9;
+    align-items: center;
 }
-header .title {
+header {
     color: #ffffff;
+}
+header .title:hover {
+    color: #000000;
+}
+#quote {
+    color:#ffffff;
+}
+footer {
+    color:#000000;
+}
+ol {
+    font-weight: bold;
 }
