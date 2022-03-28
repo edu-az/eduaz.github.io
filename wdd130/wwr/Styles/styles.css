@@ -3,7 +3,9 @@
     margin: 0 auto;
 }
 nav a {
+    color: #134266;
     text-align: center;
+    text-decoration: none;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -42,10 +44,14 @@ nav a:hover {
 }
 footer {
     background-color:#000000;
+    color:#FCE172;
 }
 .icon {
     width: 80px;
 }
 #hero-img {
     width: 100%;
+}
+footer h3 a:hover {
+    text-decoration: underline;
 }
