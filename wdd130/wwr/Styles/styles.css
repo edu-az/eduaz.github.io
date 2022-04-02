@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light|Open+Sans');
 
 #content {
-    max-width: 1600px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 nav a {
@@ -52,6 +52,9 @@ nav a:hover {
     background-color: #FCE172;
     color: #134266;
 }
+.logo {
+    width: 100%;
+}
 .msg {
     background-color: #78C5D7;
     line-height: 1.5em;
@@ -69,6 +72,9 @@ footer {
     justify-content: space-around;
     align-items: center;
 }
+footer h3 a {
+    color: #FCE172;
+}
 .icon {
     width: 80px;
     padding-top: 10px;
@@ -78,6 +84,7 @@ footer {
 }
 footer h3 a:hover {
     text-decoration: underline;
+    color: #78C5D7;
 }
 .home-title {
     font-family: "Shadows Into Light";
