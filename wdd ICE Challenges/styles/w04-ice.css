@@ -2,19 +2,36 @@ body {
     max-width: 900px;
     background-color: #fca6c9;
     align-items: center;
+    text-align: center;
+    margin: auto;
 }
 header {
     color: #ffffff;
+    font-family: "Arial";
 }
 header .title:hover {
     color: #000000;
+}
+.top-quote {
+    color: #ffffff;
+}
+#nelson {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-family: "Arial";
 }
 #quote {
     color:#ffffff;
 }
 footer {
     color:#000000;
+    font-family: "Arial";
 }
 ol {
+    list-style-position: inside;
+    font-family: "Arial";
     font-weight: bold;
+}
+img {
+    width: 200px;
 }
