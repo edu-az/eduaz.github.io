@@ -20,13 +20,9 @@ nav a {
 main section {
     text-align: center;
 }
-main .home-grid {
+.home-grid {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
-}
-#background {
-    height: 725px;
-    background-color: #FFFFFF;
 }
 body {
     background-color: #FFFFFF;
@@ -55,7 +51,13 @@ nav a:hover {
     color: #134266;
 }
 .logo {
-    width: 100%;
+    width: 80px;
+}
+#background {
+    height: 725px;
+    background-color: #134266;
+    grid-column: 1/11;
+    grid-row: 4/9;
 }
 .msg {
     background-color: #78C5D7;
@@ -63,7 +65,7 @@ nav a:hover {
     padding: 35px;
     grid-column: 6/10;
     grid-row: 6/7;
-    box-shadow: 5px 5px 10px #134266;
+    box-shadow: 5px 5px 10px #000000;
 }
 footer {
     background-color:#000000;
@@ -145,9 +147,6 @@ nav {
     grid-column: 2/3;
     grid-row: 1/2;
 }
-.mountains {
-    width: 100%;
-}
 .rivers-card {
     grid-column: 2/4;
     grid-row: 2/3;
@@ -161,9 +160,10 @@ nav {
     grid-row: 2/3;    
 }
 .mountains {
+    width: 100%;
     grid-column: 2/7;
     grid-row: 5/8;
-    box-shadow: 5px 5px 10px #134266;
+    box-shadow: 5px 5px 10px #000000;
 }
 .card-img:hover {
     opacity: .6;
