@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Open+Sans&display=swap');
+
+#content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+nav a {
+    color: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    padding: 35px;
+}
+nav a:hover {
+    background-color: #062d6a;
+    color: #e3f3f4;
+}
+header {
+    background-color: #74848c;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+.logo {
+    width: 100px;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#profile-pic {
+    width: 100%;
+}
+#profile-box {
+    grid-column: 1/2;
+    grid-row: 1/4;
+}
+.about {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+h1 {
+    font-family: "Cinzel", serif;
+    color: #062d6a;
+}
+p {
+    font-family: "Open Sans", sans-serif;
+}
+footer {
+    background-color:#000000;
+    color: #e3f3f4;
+    padding: 25px 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer h3 a {
+    color: #e3f3f4;
+}
+.social a {
+    color: #e3f3f4;
+    text-decoration: none;
+    padding: 10px;
+}
