@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
     <header>
@@ -17,7 +19,62 @@
             <a href="contactme.html">Contact Me</a>
         </nav>
     </header>
-    <main>
+    <main class="portfolio-grid">
+        <section>
+            <h1>1950s Bungalow</h1>
+            <p>
+                The 1950s bungalow is a two story home located in Bountiful, UT. The intent
+                of this design is to conserve its inviting and cozy feel while creating a 
+                modern and functional environment by bringing a complete furniture refresh.
+                With the implementation of more light and storage Mr. Miller will be able to 
+                sell the house faster to an ideal family. 
+            </p>
+        </section>
+        <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 5</div>
+              <img src="images/bungalow-1.jpg" style="width:100%">
+              <div class="text">3D View</div>
+            </div>
+          
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 5</div>
+              <img src="images/bungalow-2.jpg" style="width:100%">
+              <div class="text">Main Level</div>
+            </div>
+          
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 5</div>
+              <img src="images/bungalow-3.jpg" style="width:100%">
+              <div class="text">Second Level</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 5</div>
+                <img src="images/bungalow-rendering.jpg" style="width:100%">
+                <div class="text">Main Level Rendering</div>
+            </div>
+            
+            <div class="mySlides fade">
+                <div class="numbertext">5 / 5</div>
+                <img src="images/bungalow-rendering-2.jpg" style="width:100%">
+                <div class="text">Second Level Rendering</div>
+            </div>
+          
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <br>
+          
+          <!-- The dots/circles -->
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+          </div>
         
     </main>
     <footer>
@@ -26,10 +83,10 @@
         <h3><a href="contactme.html">Contact Me</a></h3>
         <div class="social">
             <a href="https://www.linkedin.com/in/camila-alvarado-996a9619a/" target="_blank">
-                <img src="Images/twitter.png" alt="Linkedin icon">
+                <i class="fa-brands fa-linkedin"></i>
             </a>
             <a href="https://www.instagram.com/ca.design.interiors/" target="_blank">
-                <img src="Images/instagram.png" alt="instagram icon">
+                <i class="fa-brands fa-instagram"></i>
             </a>
         </div>
     </footer>

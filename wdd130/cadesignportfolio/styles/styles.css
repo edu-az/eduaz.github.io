@@ -40,6 +40,7 @@ header {
 }
 #profile-pic {
     width: 100%;
+    padding-top: 4px;
 }
 #profile-box {
     grid-column: 1/2;
