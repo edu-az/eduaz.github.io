@@ -173,7 +173,7 @@ input[type=text], select, textarea {
   }
   
   input[type=submit] {
-    background-color: #04AA6D;
+    background-color: #062d6a;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -181,7 +181,7 @@ input[type=text], select, textarea {
   }
   
   input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #062d6a;
   }
   
   /* Style the container/contact section */
@@ -211,5 +211,15 @@ input[type=text], select, textarea {
     .column, input[type=submit] {
       width: 100%;
       margin-top: 0;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    footer {
+        margin-top: 25px;
     }
   }
