@@ -1,9 +1,13 @@
 body {
     max-width: 900px;
+    margin: 100px auto;
     background-color: #fca6c9;
-    align-items: center;
     text-align: center;
-    margin: auto;
+}
+div {
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
 }
 header {
     color: #ffffff;
@@ -31,6 +35,7 @@ ol {
     list-style-position: inside;
     font-family: "Arial";
     font-weight: bold;
+    text-align: left;
 }
 img {
     width: 200px;
